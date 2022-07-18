@@ -1,0 +1,1 @@
+{"version":3,"file":"movePage.d.ts","sourceRoot":"","sources":["../../../../src/state/commands/movePage/movePage.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAU,aAAa,EAAE,MAAM,QAAQ,CAAA;AACnD,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAA;AAE/C,wBAAgB,QAAQ,CAAC,GAAG,EAAE,SAAS,EAAE,MAAM,EAAE,MAAM,EAAE,KAAK,EAAE,MAAM,GAAG,aAAa,CA8BrF"}
