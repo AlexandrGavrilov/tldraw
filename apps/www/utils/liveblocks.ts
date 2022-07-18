@@ -3,9 +3,8 @@ import type { EnsureJson, LiveMap, LiveObject } from '@liveblocks/client'
 import { createRoomContext } from '@liveblocks/react'
 import type { TDUser, TDShape, TDBinding, TDDocument, TDAsset } from '@tldraw/tldraw'
 
-console.log('process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_API_KEY', process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_API_KEY, 'pk_live_rPgqhrgjnWOHfhF4yDTYRmty')
 const client = createClient({
-  publicApiKey: 'pk_live_rPgqhrgjnWOHfhF4yDTYRmty',//process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_API_KEY || '',
+  publicApiKey: process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_API_KEY || '',
   throttle: 80,
 })
 
