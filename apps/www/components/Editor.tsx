@@ -4,6 +4,7 @@ import { useUploadAssets } from 'hooks/useUploadAssets'
 import * as React from 'react'
 import * as gtag from 'utils/gtag'
 
+
 declare const window: Window & { app: TldrawApp }
 
 interface EditorProps {
