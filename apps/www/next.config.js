@@ -23,6 +23,9 @@ const basePath = ''
 
 module.exports = withTM(['@tldraw/tldraw', '@tldraw/core'])(
   withPWA({
+    typescript: {
+      ignoreBuildErrors: true,
+    },
     reactStrictMode: true,
     pwa: {
       disable: !isProduction,

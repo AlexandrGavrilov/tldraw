@@ -18,6 +18,7 @@
   "scripts": {
     "build": "turbo run build",
     "build:www": "turbo run build:www --force",
+    "export:www": "npm run build:www && next export:www -o _static",
     "build:core": "turbo run build:core",
     "build:packages": "turbo run build:packages --stream",
     "build:apps": "turbo run build:apps",
@@ -66,12 +67,6 @@
     "typedoc": "^0.22.15",
     "typescript": "^4.7.3",
     "webpack": "^5.68.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged",
-      "pre-push": "fix:style && eslint && test"
-    }
   },
   "packageManager": "yarn@1.22.17",
   "dependencies": {
