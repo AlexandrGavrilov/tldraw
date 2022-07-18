@@ -19,9 +19,9 @@ interface RoomProps {
 }
 
 export default function Room({ id, isUser, isSponsor }: RoomProps) {
-  if (typeof window !== 'undefined' && window.self !== window.top) {
-    return <IFrameWarning url={`https://tldraw.com/v/${id}`} />
-  }
+  // if (typeof window !== 'undefined' && window.self !== window.top) {
+  //   return <IFrameWarning url={`https://tldraw.com/v/${id}`} />
+  // }
 
   return <ReadOnlyMultiplayerEditor isUser={isUser} isSponsor={isSponsor} roomId={id} />
 }
